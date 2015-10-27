@@ -1,0 +1,31 @@
+{
+  "name": "grunt-render-mustache-json",
+  "version": "0.0.1",
+  "description": "Loop through JSON and render Mustache templates with JSON values.",
+  "homepage": "https://github.com/blattmann/grunt-render-mustache-json",
+  "repository": "https://github.com/blattmann/grunt-render-mustache-json",
+  "author": {
+    "name": "Stefan Blattmann",
+    "email": "stefan.blattmann@gmail.com",
+    "url": "http://stefan-blattmann.com/"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": "4.1.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.5",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
